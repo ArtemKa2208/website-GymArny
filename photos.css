@@ -1,0 +1,324 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    
+    background-color: #525250;
+}
+
+.header{
+    width: 100%;
+    height: 120px;
+    border-bottom: 3px black solid;
+}
+
+.header_name_img{
+  width: 100%; 
+  height: 120px;
+  position: absolute;
+  pointer-events: none;
+}
+
+.navigation{
+    position: relative;
+    margin-left: 23% ;
+    padding-top: 80px;
+}
+
+.buttons_header{
+    height: 30px;
+    width: 17%;
+    background-color: #3b3b39;
+    color: rgb(255, 255, 255);
+    border: 0;
+    outline: none; /* уберает подсветку кнопки при нажатии */
+    font-weight: 700;
+    font-size: 100%;
+}
+.button_login{
+    height: 30px;
+    width: 17%;
+    background-color: #3b3b39;
+    color: rgb(255, 255, 255);
+    border: 0;
+    outline: none; /* уберает подсветку кнопки при нажатии */
+    font-weight: 700; 
+    margin-left: 12%; 
+    font-size: 100%;
+}
+.navigation button:hover{
+    border: white 2px solid;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    margin-top: 20px;
+}
+
+.img_photos_{
+    height: 250px;
+    width: 98%;
+    border: 3px black solid;
+    position: relative;
+}
+
+.content .div_photos {
+    position: relative;
+}
+
+.div_photos p {
+    position: absolute;
+    bottom: 4%;
+    left: 3%;
+    color: white;
+    font-size: 22px;
+  
+}
+
+
+.footer_information{
+    border-top: 3.5px rgb(170, 170, 170) solid;
+    margin-top: 15px;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    
+    }
+    
+    .logo{
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    .icons {
+      padding-top: 20px; 
+    }
+    .icons img{
+    height: 40px;
+    padding-left: 27px;
+    } 
+    /* rgb(255, 174, 0) */
+    .numbers a{
+        display: block;
+        font-size: 180%;
+        text-decoration: none;
+        color: rgb(146, 140, 140);
+        padding-left: 25px;
+        padding-top:15px ;
+    }
+    .first_column_footer{
+        display: block;
+        float: left;
+    }
+    
+    .first_column_footer div{
+        width: 300px;
+    }
+    
+    
+    .second_column_footer{
+        display: block;
+        float: left;
+        position:absolute;
+        margin-left: 41%;
+        padding-top: 1%;
+    }
+    
+    .adress{
+        color: white;
+        list-style-type: none;
+    
+    }
+    
+    .style_for_adress{
+        font-size: 35px;
+        color: rgb(255, 238, 0);
+        font-weight: 1000;
+        padding-bottom: 15px;
+    }
+    
+    .style_adress{
+        font-size: 30px;
+        color: rgb(146, 140, 140);
+        padding-bottom: 15px;
+    }
+    
+    .third_column_footer{
+        display: block;
+        margin-left: 75%;
+        padding-top: 1%;
+    }
+    .opening_hours{
+        list-style-type: none;
+    }
+    
+    .name_opening_hours{
+        font-weight: 1000;
+        font-size: 35px;
+        color: rgb(255, 238, 0); 
+        padding-bottom: 10px;  
+    }
+    .style_opening_hours{
+        font-size: 22px;
+        color: rgb(146, 140, 140);
+        padding-bottom: 11px;
+    }
+
+
+    .form_photo_admin{
+        border: 2px white solid;
+        width: 300px;
+        padding: 18px;
+    }
+    
+    .form_photo{
+        display: flex;
+        margin-top: 200px;
+        justify-content: center;
+    }
+
+
+    .photo_form_photo{
+        display: block;
+        margin-top: 10px;
+        width: 260px;
+        padding: 17px;
+        font-size: 17px;
+    }
+    
+    .submit_form_photo{
+        display: block;
+        margin-top: 10px;
+        width: 295px;
+        padding: 17px;
+        font-size: 17px; 
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 4, 255);
+        border: 1px rgb(0, 4, 255) solid;
+    }
+
+
+    .div_form_delete_photos{
+        display: flex;
+        margin-top: 200px;
+        justify-content: center; 
+    }
+    
+    .form_delete_photos{
+        border: 2px white solid;
+        width: 300px;
+        padding: 18px;
+    }
+    
+    .form_delete_photos input{
+        display: block;
+        margin-top: 10px;
+        width: 260px;
+        padding: 17px;
+        font-size: 17px;
+    }
+    
+    .form_delete_photos button{
+        display: block;
+        margin-top: 10px;
+        width: 295px;
+        padding: 17px;
+        font-size: 17px; 
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 4, 255);
+        border: 1px rgb(0, 4, 255) solid; 
+    }
+
+
+    .button_for_admin{
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 30px;
+        width: 80px;
+        background-color: rgb(158, 158, 158);
+        color: white;
+        border:rgb(3, 3, 3);
+        font-size: 15px;
+        font-weight: 700;
+        outline: none;
+    }
+
+    .button_for_admin:hover{
+      border: 2px solid black;;
+    }
+
+    @media  (max-width: 750px) {
+        .button_login{
+            margin-left: 0;   
+        }
+        .navigation{
+            margin-left: 15% ;  
+        }
+        .content{
+            display: grid;  
+            grid-template-rows: 1fr 1fr ;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }    
+        .name_opening_hours{
+            font-weight: 1000;
+            font-size: 27px;
+            padding-bottom: 10px;  
+        }
+        .style_opening_hours{
+            font-size: 15px;
+            padding-bottom: 11px;
+        }
+        .style_for_adress{
+            font-size: 25px;
+            font-weight: 1000;
+            padding-bottom: 15px;
+        }
+        
+        .style_adress{
+            font-size: 20px;
+            padding-bottom: 15px;
+        }
+        .numbers a {
+            display: block;
+            font-size: 120%;
+        }
+        .icons img {
+            height: 20px;
+            padding-left: 27px;
+        }
+        .logo img{
+            height: 80px;
+            width: 130px;
+        }
+        .button_login{
+            margin-left: 0;  
+        } 
+      } 
+      @media (max-width: 650px) {
+        .button_login{
+            margin-left: 0;  
+            height: 25px;
+            width: 58px; 
+            font-size: 85%;
+        } 
+        .buttons_header {
+            height: 25px;
+            width: 58px;
+            border: 0;
+            outline: none;
+            font-weight: 700;
+            font-size: 85%;
+            margin-right: 2px;
+        }
+        .navigation{
+            margin-left: 25% ;  
+        } 
+      } 
+      @media (max-width: 500px) {
+        .navigation{
+            margin-left: 19% ;  
+        } 
+      } 
